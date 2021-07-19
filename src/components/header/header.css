@@ -1,0 +1,48 @@
+.header-main {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.header-left, .header-right {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.header-right {
+    justify-content: flex-end;
+}
+
+.header-right button {
+    margin-right: 170px;
+    cursor: pointer;
+}
+
+.header-left img {
+    margin-left: 170px;
+}
+
+.header-left p:last-child {
+    margin-left: 40px;
+}
+
+.header-left p {
+    cursor: pointer;
+}
+
+.header-btn {
+    height: 40px;
+    width: 152px;
+    background: #3D55F9;
+    border-radius: 12px;
+    border: #3D55F9;
+}
+
+.header-p {
+    font-size: 15px;
+    line-height: 18px;
+}

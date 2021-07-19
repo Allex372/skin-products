@@ -1,0 +1,90 @@
+.fd-main {
+    height: 593px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fd-left, .fd-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+
+.fd-left {
+    flex-direction: column;
+    padding-left: 170px;
+}
+
+.fd-right {
+    justify-content: flex-end;
+}
+
+.fd-right img {
+    margin-right: 220px;
+}
+
+.fd-left p {
+    width: 460px;
+}
+
+.fd-left p:first-child {
+    margin-top: 120px;
+}
+
+.fd-p-big {
+    font-size: 43px;
+    line-height: 50px;
+}
+
+.fd-p-small {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.fd-input {
+    position: relative;
+    align-items: center;
+    width: 497px;
+    height: 80px;
+    margin-top: 24px;
+}
+
+input[type = "text"] {
+    border: 2px solid #FFFFFF; /*/цвет рамки*/
+    border-radius: 20px; /*/закругление углов (общее)*/
+    box-sizing: border-box;
+    box-shadow: 0px 8px 24px rgba(7, 19, 48, 0.06);
+    -webkit-border-radius: 20px; /*/закругление углов (Google Chrome)*/
+    -moz-border-radius: 20px; /*/закругление углов (FireFox)*/
+    -khtml-border-radius: 20px; /*/закругление углов (Safari)*/
+    background: #ffffff !important; /*/ желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым*/
+    outline: none; /*/ удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+    width: 100%;
+    height: 100%; /*/ ширина на свое усмотрение*/
+    color: #071330; /*/цвет шрифта в обычном состоянии*/
+    font-size: 17px;
+    line-height: 18px; /*/ Размер шрифта*/
+    font-weight: bold;
+    padding-left: 32px;
+}
+
+.fd-btn {
+    position: absolute;
+    height: 56px;
+    width: 172px;
+    right: 12px;
+    top: 12px;
+
+    background: #3D55F9;
+    border-radius: 12px;
+    border: #3D55F9;
+    cursor: pointer;
+}
+
+.fd-btn:active {
+    background-color: #333;
+    border-color: #333;
+    color: #eee;
+}
+
