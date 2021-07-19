@@ -1,0 +1,39 @@
+.fourth-main{
+    width: 693px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fourth-main p:first-child{
+    font-size: 27px;
+    line-height: 56px;
+    text-align: center;
+    color: #F0BCA3;
+    margin-top: 188px;
+}
+
+.fourth-wrapper{
+    height: 40px;
+    width: 770px;
+    margin: 0 auto;
+    margin-top: 87.5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.fourth-wrapper p{
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(7, 19, 48, 0.6);
+}
+
+.fourth-wrapper img{
+    margin-left: 138px;
+}
+
