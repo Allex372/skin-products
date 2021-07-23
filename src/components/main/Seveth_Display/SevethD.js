@@ -1,5 +1,5 @@
 import './sd.css';
-import {items} from '../../../constants/items';
+import Box from "../../items/Color-Boxes/Box";
 
 function SevethD() {
     return (
@@ -12,9 +12,7 @@ function SevethD() {
             </div>
 
             <div className='seven-catalog'>
-                {
-                    items.map(value => console.log(value))
-                }
+                <Box/>
             </div>
         </div>
     )
